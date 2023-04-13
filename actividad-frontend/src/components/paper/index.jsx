@@ -3,32 +3,20 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
 
-
-
 export const SimplePaper = ({piece}) =>  {
-    styles = {
+    var styles = {
         paperContainer: {
             margin:3,
-            height: 300,
-            width: 200,
+            height: 350,
+            width: 250,
             alignSelf: 'center',
-            backgroundImage: `url(${piece.imageUrl})`
+            //backgroundImage: `url(${piece.imageUrl})`
+            backgroundImage: `url("../../public/assets/products/dress_a.jpg")`
         }
     };
 
   return (
-    <Box
-      sx={{
-        display: 'flex',
-        flexWrap: 'wrap',
-        '& > :not(style)': {
-          m: 1,
-          width: 128,
-          height: 128,
-        },
-      }}
-    >
-      
+    
       <Paper style={styles.paperContainer}
             sx={{
                 backgroundColor: 'white',
@@ -45,12 +33,10 @@ export const SimplePaper = ({piece}) =>  {
                 },
             }}
             >
-            <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', position: 'absolute', bottom: 0, left: 0, width: '100%', p: 1 }}>
-                <Box sx={{ backgroundColor: 'red', width: 40, height: 20, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>${piece.price}</Box>
-                <Box sx={{ backgroundColor: 'black', color: 'white', width: 20, height: 20, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>${piece.id}</Box>
+            <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', position: 'absolute', top: 3, left: 0, width: '93%', p: 1 }}>
+                <Box sx={{ backgroundColor: 'red', fontSize: 10,color: 'white', width: 50, height: 20, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>{piece.price}€</Box>
+                <Box sx={{ backgroundColor: 'black', fontSize: 10, color: 'white', width: 20, height: 20, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>{piece.id}</Box>
             </Box>
         </Paper>
-      
-    </Box>
   );
 }
