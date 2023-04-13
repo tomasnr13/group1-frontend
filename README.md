@@ -86,3 +86,11 @@ git push origin main
 ```
 
 ❗❗❗ **REMEMBER: Do not upload your changes until the time is up.**
+
+### 7. Create a pull request from your fork to target repository
+
+Once the changes are pushed to your fork, you must create a pull request from your fork to the target repository.
+
+You can create the pull request from the web interface of your fork: `Pull requests` -> `New pull request`.
+
+<img src="assets/pull-request-01.png"  width="900px" height="600px">
