@@ -1,5 +1,7 @@
 import { Header } from "./components/header";
 import { Placeholder } from "./components/placeholder";
+import { Ranking } from "./components/ranking";
+
 import "./app.css";
 
 function App() {
@@ -12,8 +14,7 @@ function App() {
           <Placeholder />
         </div>
         <div className="ranking">
-          {/* TODO: Exercise 3 - Create the ranking component */}
-          <Placeholder />
+          <Ranking />
         </div>
       </div>
     </div>
