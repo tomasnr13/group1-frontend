@@ -1,5 +1,6 @@
 import { Header } from "./components/header";
 import { Placeholder } from "./components/placeholder";
+import { Summary } from "./components/summary";
 import "./app.css";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <div className="container">
         <div className="summary">
           {/* TODO: Exercise 2 - Create the summary component */}
-          <Placeholder />
+          <Summary />
         </div>
         <div className="ranking">
           {/* TODO: Exercise 3 - Create the ranking component */}
