@@ -83,7 +83,6 @@ export const Ranking = ({ width, height }) => {
             endDate
         };
         // Pass the filter object to the parent component
-        console.log("here");
         const ranking = await fetchRanking({type,startDate,endDate});
         console.log(ranking);
     };
