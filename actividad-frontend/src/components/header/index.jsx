@@ -1,5 +1,5 @@
 import zaraLogo from "../../assets/images/zara-logo.svg";
-import { Placeholder } from "../placeholder";
+import Avatar from '@mui/material/Avatar';
 import "./style.css";
 
 export const Header = () => {
@@ -15,7 +15,7 @@ export const Header = () => {
             </div>
             <div className="header__avatar">
                 {/* TODO: Exercise 1 - Replace the Placeholder component with our Avatar component */}
-                <Placeholder width={30} height={30} />
+                <Avatar sx={{ bgcolor: "black"}}>DM</Avatar>
             </div>
         </div>
     )
