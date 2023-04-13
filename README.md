@@ -82,6 +82,7 @@ When you finish the activity, you must upload the changes to your fork.
 ```sh
 git add .
 git commit -m "actividad zboost"
+git push origin main
 ```
 
 ❗❗❗ **REMEMBER: Do not upload your changes until the time is up.**
