@@ -14,7 +14,6 @@ export const Header = () => {
                 <img src={zaraLogo} alt="Zara" data-testid="zara-logo" onClick={onClick} />
             </div>
             <div className="header__avatar">
-                {/* TODO: Exercise 1 - Replace the Placeholder component with our Avatar component */}
                 <Avatar sx={{ bgcolor: "black"}}>DM</Avatar>
             </div>
         </div>
