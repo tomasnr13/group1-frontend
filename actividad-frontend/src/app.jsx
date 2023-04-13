@@ -1,7 +1,7 @@
 import { Header } from "./components/header";
 import { Placeholder } from "./components/placeholder";
 import { Ranking } from "./components/ranking";
-import { FilterSelector } from "./components/selector";
+// import { FilterSelector } from "./components/selector";
 
 import "./app.css";
 
@@ -15,7 +15,7 @@ function App() {
           <Placeholder />
         </div>
         <div className="ranking">
-          <FilterSelector />
+          {/* <FilterSelector /> */}
           <Ranking />
         </div>
       </div>
