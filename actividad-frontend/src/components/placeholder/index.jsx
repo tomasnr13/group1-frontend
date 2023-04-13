@@ -6,5 +6,6 @@ import "./style.css";
 export const Placeholder = ({ width, height }) => {
     return (
         <div className="placeholder" style={{ width, height }} />
+        
     )
 }
