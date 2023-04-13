@@ -8,7 +8,35 @@ export const handlers = [
         {
           "id": 1,
           "name": "Product 1",
-          "price": 39.95,
+          "price": 30.95,
+          "category": "Pants",
+          "imageUrl": "/assets/pants_a.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Product 1",
+          "price": 3.95,
+          "category": "Pants",
+          "imageUrl": "/assets/pants_a.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Product 1",
+          "price": 395.80,
+          "category": "Pants",
+          "imageUrl": "/assets/pants_a.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Product 1",
+          "price": 9.95,
+          "category": "Pants",
+          "imageUrl": "/assets/pants_a.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Product 1",
+          "price": 36.95,
           "category": "Pants",
           "imageUrl": "/assets/pants_a.jpg"
         }
