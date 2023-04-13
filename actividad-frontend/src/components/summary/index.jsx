@@ -13,7 +13,7 @@ const fetchSummary = async () => {
   }
 };
 
-export const Summary = ({ width, height }) => {
+export const Summary = ({ height }) => {
   const [summary, setSummary] = useState(null);
 
   useEffect(() => {
